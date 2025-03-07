@@ -28,6 +28,6 @@ class RemotemontesWebScraping
             return $response->json();
         }
 
-        throw new \Exception('Failed to scrape the URL, response: [' . $response->status() . '] ' . $response->body());
+        throw new \Exception('Failed to scrape the URL, response: ['.$response->status().'] '.$response->body());
     }
 }
