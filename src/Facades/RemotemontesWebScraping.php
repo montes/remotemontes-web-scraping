@@ -1,16 +1,16 @@
 <?php
 
-namespace RemoteMontes\RemotemontesWebScraping\Facades;
+namespace Remotemontes\RemotemontesWebScraping\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \RemoteMontes\RemotemontesWebScraping\RemotemontesWebScraping
+ * @see \Remotemontes\RemotemontesWebScraping\RemotemontesWebScraping
  */
 class RemotemontesWebScraping extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \RemoteMontes\RemotemontesWebScraping\RemotemontesWebScraping::class;
+        return \Remotemontes\RemotemontesWebScraping\RemotemontesWebScraping::class;
     }
 }

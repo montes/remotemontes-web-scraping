@@ -1,6 +1,6 @@
 <?php
 
-// config for RemoteMontes/RemotemontesWebScraping
+// config for Remotemontes/RemotemontesWebScraping
 return [
 
 ];
