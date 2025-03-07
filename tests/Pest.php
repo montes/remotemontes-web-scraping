@@ -1,5 +1,5 @@
 <?php
 
-use Javier Montes\RemotemontesWebScraping\Tests\TestCase;
+use RemoteMontes\RemotemontesWebScraping\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

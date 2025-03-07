@@ -52,8 +52,8 @@ php artisan vendor:publish --tag="remotemontes-web-scraping-views"
 ## Usage
 
 ```php
-$remotemontesWebScraping = new Javier Montes\RemotemontesWebScraping();
-echo $remotemontesWebScraping->echoPhrase('Hello, Javier Montes!');
+$remotemontesWebScraping = new RemoteMontes\RemotemontesWebScraping();
+echo $remotemontesWebScraping->echoPhrase('Hello, RemoteMontes!');
 ```
 
 ## Testing
@@ -76,7 +76,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Javier Montes](https://github.com/montes)
+- [RemoteMontes](https://github.com/montes)
 - [All Contributors](../../contributors)
 
 ## License

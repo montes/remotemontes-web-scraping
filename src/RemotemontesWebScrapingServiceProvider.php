@@ -1,10 +1,10 @@
 <?php
 
-namespace Javier Montes\RemotemontesWebScraping;
+namespace RemoteMontes\RemotemontesWebScraping;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Javier Montes\RemotemontesWebScraping\Commands\RemotemontesWebScrapingCommand;
+use RemoteMontes\RemotemontesWebScraping\Commands\RemotemontesWebScrapingCommand;
 
 class RemotemontesWebScrapingServiceProvider extends PackageServiceProvider
 {

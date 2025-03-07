@@ -1,6 +1,6 @@
 <?php
 
-// config for Javier Montes/RemotemontesWebScraping
+// config for RemoteMontes/RemotemontesWebScraping
 return [
 
 ];

@@ -1,6 +1,6 @@
 <?php
 
-namespace Javier Montes\RemotemontesWebScraping\Commands;
+namespace RemoteMontes\RemotemontesWebScraping\Commands;
 
 use Illuminate\Console\Command;
 

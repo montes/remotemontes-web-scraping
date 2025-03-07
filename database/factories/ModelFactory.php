@@ -1,6 +1,6 @@
 <?php
 
-namespace Javier Montes\RemotemontesWebScraping\Database\Factories;
+namespace RemoteMontes\RemotemontesWebScraping\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

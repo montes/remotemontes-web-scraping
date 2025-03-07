@@ -2,7 +2,7 @@
     "name": "montes/remotemontes-web-scraping",
     "description": "Remotemontes Web Scraping API Client",
     "keywords": [
-        "Javier Montes",
+        "RemoteMontes",
         "laravel",
         "remotemontes-web-scraping"
     ],
@@ -10,7 +10,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Javier Montes",
+            "name": "RemoteMontes",
             "email": "kalimocho@gmail.com",
             "role": "Developer"
         }
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Javier Montes\\RemotemontesWebScraping\\": "src/",
-            "Javier Montes\\RemotemontesWebScraping\\Database\\Factories\\": "database/factories/"
+            "RemoteMontes\\RemotemontesWebScraping\\": "src/",
+            "RemoteMontes\\RemotemontesWebScraping\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Javier Montes\\RemotemontesWebScraping\\Tests\\": "tests/",
+            "RemoteMontes\\RemotemontesWebScraping\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Javier Montes\\RemotemontesWebScraping\\RemotemontesWebScrapingServiceProvider"
+                "RemoteMontes\\RemotemontesWebScraping\\RemotemontesWebScrapingServiceProvider"
             ],
             "aliases": {
-                "RemotemontesWebScraping": "Javier Montes\\RemotemontesWebScraping\\Facades\\RemotemontesWebScraping"
+                "RemotemontesWebScraping": "RemoteMontes\\RemotemontesWebScraping\\Facades\\RemotemontesWebScraping"
             }
         }
     },

@@ -1,5 +1,5 @@
 <?php
 
-namespace Javier Montes\RemotemontesWebScraping;
+namespace RemoteMontes\RemotemontesWebScraping;
 
 class RemotemontesWebScraping {}

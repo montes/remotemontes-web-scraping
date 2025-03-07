@@ -1,10 +1,10 @@
 <?php
 
-namespace Javier Montes\RemotemontesWebScraping\Tests;
+namespace RemoteMontes\RemotemontesWebScraping\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Javier Montes\RemotemontesWebScraping\RemotemontesWebScrapingServiceProvider;
+use RemoteMontes\RemotemontesWebScraping\RemotemontesWebScrapingServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Javier Montes\\RemotemontesWebScraping\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'RemoteMontes\\RemotemontesWebScraping\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
