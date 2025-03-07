@@ -17,9 +17,6 @@ class RemotemontesWebScrapingServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('remotemontes-web-scraping')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_remotemontes_web_scraping_table')
-            ->hasCommand(RemotemontesWebScrapingCommand::class);
+            ->hasConfigFile();
     }
 }
