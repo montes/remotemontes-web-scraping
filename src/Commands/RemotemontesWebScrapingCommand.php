@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Javier Montes\RemotemontesWebScraping\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RemotemontesWebScrapingCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'remotemontes-web-scraping';
 
     public $description = 'My command';
 

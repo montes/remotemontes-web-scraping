@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Javier Montes\RemotemontesWebScraping;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Javier Montes\RemotemontesWebScraping\Commands\RemotemontesWebScrapingCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class RemotemontesWebScrapingServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('remotemontes-web-scraping')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_remotemontes_web_scraping_table')
+            ->hasCommand(RemotemontesWebScrapingCommand::class);
     }
 }

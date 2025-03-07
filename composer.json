@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "montes/remotemontes-web-scraping",
+    "description": "Remotemontes Web Scraping API Client",
     "keywords": [
-        ":vendor_name",
+        "Javier Montes",
         "laravel",
-        ":package_slug"
+        "remotemontes-web-scraping"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/montes/remotemontes-web-scraping",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Javier Montes",
+            "email": "kalimocho@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Javier Montes\\RemotemontesWebScraping\\": "src/",
+            "Javier Montes\\RemotemontesWebScraping\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Javier Montes\\RemotemontesWebScraping\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Javier Montes\\RemotemontesWebScraping\\RemotemontesWebScrapingServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "RemotemontesWebScraping": "Javier Montes\\RemotemontesWebScraping\\Facades\\RemotemontesWebScraping"
             }
         }
     },
